@@ -25,17 +25,7 @@
             <h2 class="title">Register</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Firstname" name="firstname" required/>
-              <!--<span class="text-danger">@error('firstname') {{$message}} @enderror</span>-->
-            </div>
-            <div class="input-field">
-              <i class="fas fa-user"></i>
-              <input type="text" placeholder="Lastname" name="lastname" required/>
-              <!--<span class="text-danger">@error('lastname') {{$message}} @enderror</span>-->
-            </div>
-            <div class="input-field">
-              <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" name="username" required/>
+              <input type="text" placeholder="Name" name="name" required/>
               <!--<span class="text-danger">@error('username') {{$message}} @enderror</span>-->
             </div>
             <div class="input-field">
